@@ -1,7 +1,6 @@
 const adminValidation = (req,res,next)=>{
 try {
     const userData = req.user
-    console.log('userData: ', userData);
         if(userData.role !=="admin"){
             throw new Error("you are not an admin")
         }
