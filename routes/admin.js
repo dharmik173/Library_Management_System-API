@@ -5,7 +5,6 @@ const userInfoFromJWT = require("../middlewares/userInfoFromJWT")
 const Book = require("../models/book")
 const validateBook = require("../helpers/bookDataValidator")
 const adminValidation = require("../middlewares/adminValidation")
-const fetchBooks = require("../common/fetchBook")
 const BorrowRequest = require("../models/borrowRequest")
 
 
